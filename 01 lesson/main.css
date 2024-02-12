@@ -3,5 +3,11 @@
             size: 24px;
         }
         body{
-            background-color: rgb(148, 142, 142);
+            background-color: lavender 
+        }
+        a{
+            color: rgb(53, 7, 236);
+        }
+        a:visited{
+            color:rgb(70, 43, 226);
         }
