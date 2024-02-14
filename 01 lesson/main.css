@@ -11,3 +11,9 @@
         a:visited{
             color:rgb(70, 43, 226);
         }
+        table, tr, th, td, caption {
+            border: 1px solid black;
+            font-family: 'Courier New', Courier, monospace;
+            border-collapse: collapse;
+            padding: 0.5rem;
+        }
