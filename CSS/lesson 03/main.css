@@ -1,0 +1,21 @@
+html{
+    background-color: #8ecae6;
+}
+h1{
+    color: #fb8500;
+    font-family: Georgia, serif;
+    border: 2px dotted #023047;
+    width: 50%;
+    padding: 30px;
+
+}
+p{
+    font-family: Times, "Times New Roman", Georgia, serif;
+    color: #023047 ;
+    font-size:1.5rem;
+    width: 30ch;
+}
+main{
+    width: auto;
+    background-color:transparent
+}

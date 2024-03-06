@@ -1,0 +1,31 @@
+/* html{
+    font-size: 22px;
+} */
+body{
+    font-size: 20px;
+    background-color: rgba(255, 239, 213, 0.733);
+    color: rgb(red, green, blue);
+}
+
+p{
+    color:chocolate;
+} 
+/* main{
+    font-family: monospace;
+}
+h1 , h2 {
+    color: blue;
+}
+button,textarea{
+    font: inherit;
+}
+.gray{
+    color: brown;
+}
+#second{
+    font-style: italic;
+}
+p span{
+    text-transform: uppercase;
+    background-color: chartreuse;
+} */
