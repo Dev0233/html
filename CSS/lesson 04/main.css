@@ -1,0 +1,27 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: content-box;
+}
+.container{
+    border: 2px dashed red;
+    border-top: 5px solid darkblue;
+    border-right: 5px solid darkblue;
+    width:450px;
+    outline: 5px solid peachpuff;
+    font-size: 1rem;
+    margin: 1.5rem;
+    padding: 2.0em;
+
+}
+.square{
+    border:2px solid black ;
+    border-radius: 9rem;
+    outline: 2px solid red;
+    outline-offset: 1rem;
+    margin: 3rem auto;
+    padding: 2rem;
+    background-color: gold;
+    width: 120px;
+    height: 120px ;
+}
