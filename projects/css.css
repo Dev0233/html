@@ -1,0 +1,55 @@
+nav {
+    background-color: #2C497F; /* Background color of the nav */
+    padding: 10px 0; /* Padding to add some space vertically */
+}
+
+.menu {
+    list-style-type: none; /* Remove default bullet points */
+    margin: 0; /* Remove default margin */
+    padding: 0;
+    border: white;
+    border-radius: 12px; /* Remove default padding */
+    display: flex; /* Use flexbox to create horizontal layout */
+    justify-content: center; /* Center the items horizontally */
+}
+
+.menu li {
+    margin: 0 15px; /* Spacing between the items */
+}
+
+.menu a {
+    color: white; /* Text color */
+    text-decoration: none; /* Remove underline from links */
+    padding: 8px 16px; /* Padding for clickable area */
+    display: block; /* Make the link block-level */
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 1rem;
+}
+
+.menu a:hover {
+    background-color: #575757; /* Background color on hover */
+    border-radius: 4px; /* Rounded corners on hover */
+}
+
+.menu img {
+    vertical-align: middle; /* Align image vertically center with text */
+    margin-right: 5px; /* Space between image and text */
+    width: 30px;
+}
+.search-container input{
+    width: 1100px; /* Increased width of search box */
+    padding: 6px; /* Add padding to search box */
+    border-radius: 4px; /* Rounded corners for search box */
+    border: 1px solid #ccc; /* Border color */
+    
+}
+.search-container button{
+    background-color: transparent;
+    padding: 10px;
+    padding-bottom: 7px;
+    border: none;
+    margin: 12px;
+}
+img{
+    width: 12px;
+}
