@@ -78,6 +78,11 @@ main{
   
   /* || MEDIUM */
   @media screen and (min-width: 768px) {
+    body{
+      background-color: grey;
+      background-image: linear-gradient(rgb(6, 78, 247),rgb(155, 154, 151));
+
+    }
     .card {
       width: min(100%, 325px);
     }
