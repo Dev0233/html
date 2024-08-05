@@ -30,12 +30,12 @@
 // else{
 //     console.log("you did'nt entered");
 // }
-let playgame=confirm("we shall play rock paper scissor ?");
+let playgame=confirm("we shall play rock paper scissors ?");
 if(playgame){
-    let playerchoice = prompt("please enter rock , paper or scissor" );
+    let playerchoice = prompt("please enter rock , paper or scissors" );
     if (playerchoice){
         let playerone=playerchoice.trim().toLocaleLowerCase();
-        if(playerone==="rock"||playerone==="paper" || playerone==="scissor"){
+        if(playerone==="rock"||playerone==="paper" || playerone==="scissors"){
             let computerChoice=Math.floor(Math.random()*3+1);
             let computer;
             switch(computerChoice){
@@ -47,7 +47,7 @@ if(playgame){
                         break;
     
                 default :
-                        computer=" scissor";
+                        computer=" scissors";
                         break;
             }
             let result=
